@@ -30,6 +30,8 @@ swagger|http://localhost:8084/
 tasks|http://localhost:8081/v1/tasks/
 react UI|http://localhost:3000/
 
+Note: if you are using docker toolbox update your localhost with your docker IP in swagger json
+
 virtual env for Windows 
 $ virtualenv env 
 $ .\venv2\Scripts\activate 
