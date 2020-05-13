@@ -5,7 +5,7 @@ export default function DataLoader() {
 
  const update = () => {
 
-    fetch("http://192.168.99.100:8081/v1/tasks/")
+    fetch("http://localhost:8081/v1/tasks/")
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.log(error));
